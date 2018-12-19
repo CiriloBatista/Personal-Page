@@ -1,0 +1,377 @@
+body{
+background: #2796DE;
+}
+input, button:focus{
+	outline-offset: 0px;
+	outline: -webkit-focus-ring-color auto 0px;
+}
+#main-header{
+	background: transparent;
+	background-image: linear-gradient(to bottom, dimgray, transparent);
+	color: white;
+	height: 100px;
+	z-index: 1;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+div#header{
+	background-image: url("https://wallpapertag.com/wallpaper/full/a/7/c/792778-underwater-tumblr-background-1920x1200-xiaomi.jpg");
+	background-size: 100%;
+	width: 100%;
+	border-bottom: 2px dashed black;
+	padding-top: 120px;
+}
+div#menu-search{
+	display: inline-table;
+	width: 80%;
+	padding: 2% 4% 2% 0;
+	margin: 0 4% 0 4%;
+}
+#div-menu{
+	float: left;
+}
+#header{
+	position: relative;
+	margin-top: -20px;
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#nav-menu{
+	background-color: white;
+	width: 21%;
+	max-height: max-content;
+	position: relative;
+	max-width: 30%;
+	margin: 0;
+	font-size: 20px;
+	display: block;
+	float: left;
+}
+.modal-dialog{
+	margin: 0;
+	width: 300px;
+	height: 100%;
+}
+.modal-content{
+	height: -webkit-fill-available;
+}
+#nav-menu > ul{
+	height: 550px;
+	overflow: hidden;
+	list-style: none;
+}
+#divfoto{
+	background-color: #337ab7;
+	border-radius: 10px;
+	padding: 6% 8% 6% 8%;
+}
+#myfoto{
+	border-radius: 300px;
+	width: 150px;
+	height: 150px;
+}
+#I0_1541697540051{
+	position: static;
+	top: 0px;
+	width: 112px;
+	margin: 0px;
+	border-style: none;
+	left: 0px;
+	visibility: visible;
+	height: 20px;
+}
+#nav-menu ul li{
+	float: left;
+	width: 100%;
+}
+#nav-menu ul li #myName-a{
+	padding: 20px 20px 0 20px;
+	display: block;
+	text-decoration:none;
+}
+.btn-primary, .btn-primary:focus, .btn-primary:hover{
+	background-color: transparent;
+    border-color: transparent;
+}
+div#search{
+	position: relative;
+	width: 100%;
+	background-color: white;
+}
+div#search.input-group{
+	border-radius: 20px;
+}
+span#search{
+	font-size: 27px;
+	color: black;
+	height: max-content;
+}
+span#search:hover{
+	color: gray;
+}
+button.btn.btn-default{
+	background-color: transparent;
+	border: 0px solid transparent;
+	border-radius: 18px;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	width: max-content;
+}
+.form-control{
+	background-color: transparent;
+	border: 0px solid transparent;
+	font-size: 20px;
+	color: white;
+	border-bottom: 4px solid black;
+	border-radius: 20px;
+	padding: 2.8% 1% 2.9% 0;
+	width: max-content;
+	height: min-content;
+}
+div#myicono > img{
+	width: 50%;
+}
+nav#navul{
+	width: 40%;
+	font-family: 'Kristen ITC';
+	max-height: 42px;
+	padding: 0;
+	margin: 3% 0 0 0;
+}
+#myName{
+	font-size: 30px;
+	color: black;
+	font-family: 'Kristen ITC';
+}
+#myframe, #myMail, #contact{
+	padding: 0 0;
+	color: black;
+	font-family: 'Kristen ITC';
+}
+.navbar{
+	min-height: 42px;
+}
+#icons{
+	margin-top: 50px;
+	list-style: none;
+	width: 100%;
+}
+#icons ul li{
+	width: 52px;
+}
+#icons ul li a{
+	padding-left: 22%;
+}
+#facebook, #google, #whatsapp, #twitter, #instagram{
+	width: 30px;
+}
+li{
+	padding-bottom: 0;
+}
+#btn-menu{
+	position: absolute;
+	display: block;
+	transform: translate(-50%, 50%);
+	width: 45px;
+	height: 45px;
+	top: 0;
+	cursor: pointer;
+}
+#hamburger{
+	width: 35px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	border-radius: 2px;
+	right: 50%;
+	transform: translate(50%, -50%);
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	transition: .5s;
+}
+#hamburger::before, #hamburger::after{
+	content: '';
+	position: absolute;
+	border-radius: 2px;
+	width: 35px;
+	height: 5px;
+	background: black;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	transition: .5s;
+}
+#hamburger::before{
+	top: -12px;
+	left: 0;
+}
+#hamburger::after{
+	top: 12px;
+	left: 0;
+}
+div#banner{
+	padding: 3% 0 6% 0;
+}
+div#banner h1, marquee h2{
+	font-size: 80px;
+	font-family: 'Ink Free';
+}
+div#banner h2{
+	color: gray;
+	font-size: 30px;
+	font-family: 'Kristen ITC';
+}
+div#content{
+	margin: 0 0 3% 0;
+}
+ul{
+	list-style: none;
+}
+#navul > #biblio{
+	float: left;
+}
+#navul > #inicio a{
+	color: white;
+}
+#espacios a, #mas a, #contact a{
+	color: #337ab7
+}
+#navul li a{
+	text-decoration: none;
+	font-family: 'Kristen ITC';
+	padding: 10px 12px;
+	padding-left: 20px;
+	display: block;
+}
+#navul li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+#navul li:hover > ul{
+	z-index: 1;
+	display: block;
+	padding-left: 0;
+}
+#navul li ul li{
+	position: relative;
+	text-align: left;
+}
+#navul li ul li:hover{
+	color: #337ab7;
+	background-color: #eeeeee;
+}
+#navul li ul li ul{
+	right: -140px;
+	top: 0;
+}
+#introduccion{
+    position: relative;
+    width: max-content;
+    height: 60px;
+	margin: 1% auto 0 auto;
+	padding-top: 2px;
+    background-color: #337ab7;
+    border: 2px dashed black;
+    border-radius: 100px;
+}
+#imglike{
+    vertical-align: middle;
+    width: 40px;
+}
+#intro{
+    display: inline-block;
+    padding: 0px 15px;
+    margin-top: 6.5px;
+    margin-bottom: 11.5px;
+}
+#pcontent{
+	width: 800px;
+	margin: -30px auto 30px auto;
+	padding-top: 50px;
+    background-color: white;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+#pcontentp{
+	padding: 6% 0 2% 0;
+    font-family: 'Ubuntu', sans-serif;
+    width: 600px;
+}
+#part23{
+	display: inline-block;
+	margin-top: 1%;
+}
+#tubi{
+	position: relative;
+    width: max-content;
+    height: 60px;
+	margin: 1% auto 0 auto;
+	padding-top: 2px;
+    background-color: #337ab7;
+    border: 2px dashed black;
+    border-radius: 100px;
+}
+#tsub{
+	position: relative;
+    width: max-content;
+    height: 60px;
+	margin: 1% auto 0 auto;
+	padding-top: 2px;
+    background-color: #337ab7;
+    border: 2px dashed black;
+    border-radius: 100px;
+}
+#texto1 label,
+#texto2 label,
+#texto3 label,
+#texto4 label{
+	border-bottom: 2px solid black;
+	border-radius: 20px;
+	background-color: #cccccc;
+	font-size: 20px;
+	font-family: 'Ink Free';
+	width: 50%;
+}
+#texto1, #texto2, #texto3, #texto4{
+	padding: 0 10% 0 10%;
+}
+#mapa, #subtemas{
+	width: 600px;
+	margin: -30px auto;
+	padding: 50px 20px;
+	padding-bottom: 50px;
+    background-color: white;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+#table, td, th{  
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td{
+	padding: 15px;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+#marquee, marquee{
+	width: 800px;
+	position: static;
+	margin: 0 auto;
+}
+div#footer{
+	background-image: url("https://wallpapertag.com/wallpaper/full/a/7/c/792778-underwater-tumblr-background-1920x1200-xiaomi.jpg");
+	background-size: 100%;
+	border-top: 2px dashed black;
+}
+div#footer div#copy, a, a:hover{
+	color: white;
+	font-family: 'Ink Free';
+	font-size: 15px;
+	padding: 3% 0 3% 0;
+}
