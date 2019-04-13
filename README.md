@@ -1,18 +1,16 @@
-# My Personal Page :)
-
-_Acá va un párrafo que describa lo que es el proyecto_
+# My Personal Page 😊
 
 ## Comenzando 🚀📋🔧⚙️🔩⌨️📦🛠️🖇️📌📄🎁
 
 _Presento mi página personal en la que dispongo de imágenes, fonts, iconos, archivos Javascript y CSS. propósitos de desarrollo y pruebas._
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_He utilizado algunas de las siguientes herramientas dentro de mi página_
 
 * [Bootstrap](https://getbootstrap.com/docs/3.3/components/) - Las librerías de Bootstrap son múy útiles.
 
 ## Autores ✒️
 
-* **Cirilo Batista** - *Trabajo Inicial* - [CiriloBatista](https://github.com/CiriloBatista)
+* **Cirilo Batista Ochoa** - *Trabajo Inicial* - [CiriloBatista](https://github.com/CiriloBatista)
 
 
 

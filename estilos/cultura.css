@@ -264,16 +264,6 @@ ul{
 	right: -140px;
 	top: 0;
 }
-#introduccion{
-    position: relative;
-    width: max-content;
-    height: 60px;
-	margin: 1% auto 0 auto;
-	padding-top: 2px;
-    background-color: #337ab7;
-    border: 2px dashed black;
-    border-radius: 100px;
-}
 #imglike{
     vertical-align: middle;
     width: 40px;
@@ -300,26 +290,6 @@ ul{
 #part23{
 	display: inline-block;
 	margin-top: 1%;
-}
-#tubi{
-	position: relative;
-    width: max-content;
-    height: 60px;
-	margin: 1% auto 0 auto;
-	padding-top: 2px;
-    background-color: #337ab7;
-    border: 2px dashed black;
-    border-radius: 100px;
-}
-#tsub{
-	position: relative;
-    width: max-content;
-    height: 60px;
-	margin: 1% auto 0 auto;
-	padding-top: 2px;
-    background-color: #337ab7;
-    border: 2px dashed black;
-    border-radius: 100px;
 }
 #texto1 label,
 #texto2 label,

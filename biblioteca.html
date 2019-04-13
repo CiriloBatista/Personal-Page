@@ -14,126 +14,349 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="estilos/cultura.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body align="center">
-    <nav id="nav-menu">
-      <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="myModalLabel">Follow me <span class="glyphicon glyphicon-thumbs-up"></span></h4>
-          </div>
-          <div class="modal-body">
-            <div id="divfoto"><img id="myfoto" src="https://scontent.fclq1-1.fna.fbcdn.net/v/t1.0-1/p160x160/42157427_1231099900366481_8113332417739096064_n.jpg?_nc_cat=104&_nc_ht=scontent.fclq1-1.fna&oh=9efbeae404826d5ef8af2c8970926282&oe=5C3EF610"></div>
-            <ul class="nav nav-pills nav-stacked">
-              <li role="presentation"><a href="#" id="myName-a"><span id="myName">Cirilo Batista</span></a></li>
-              <li role="presentation"><a href="#" id="myMail"><span>cirilo_112@hotmail.es</span></a></li>
-              <li role="presentation"><a href="#" id="contact"><span>Contactos</span></a></li>
-              <li role="presentation">
-                <nav id="icons" class="nav navbar-default">
-                  <ul class="nav nav-pills nav-justified">
-                    <li role="presentation"><a href="https://www.facebook.com/CiriloOchhoa" target="_blank"><img id="facebook" src="./icon/icon-facebook.png"></a></li>
-                    <li role="presentation"><a href="https://www.instagram.com/cirilo_batista_ochoa/" target="_blank"><img id="instagram" src="./icon/icon-instagram.png"></a></li>
-                    <li role="presentation"><a href="#" target="_blank"><img id="whatsapp" src="./icon/icon-whatsapp.png"></a></li>
-                    <li role="presentation"><a href="https://plus.google.com/u/0/112780588285421992317?tab=wX" target="_blank"><img id="google" src="./icon/icon-google.png"></a></li>
-                    <li role="presentation"><a href="https://twitter.com/CiiriiloB" target="_blank"><img id="twitter" src="./icon/icon-twitter.png"></a></li>
-                  </ul>
-                </nav>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <div id="header">
-      <header id="main-header">
-          <div id="menu-search" align="center" class="row">
-            <div id="div-menu" class="col-lg-4">
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal"><div id="btn-menu"><div id="hamburger"></div></div></button>
-              </button>
-            </div>
-            <div id="myicono" class="col-lg-4">
-              <img src="./icons/icon-name.png">
-            </div>
-            <div class="col-lg-4">
-              <div id="search" class="input-group">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">
-                      <span id="search" class="glyphicon glyphicon-search"></span>
-                  </button>
-                </span>
-                <input type="text" class="form-control" placeholder="Buscar">
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+      <!-- Top Header Area -->
+      <div class="top-header">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                  <!-- Breaking News Area -->
+                  <div class="col-12 col-sm-8">
+                      <div class="breaking-news-area">
+                          <div id="breakingNewsTicker" class="ticker">
+                              <ul>
+                                  <li><a href="#">Hello Everybody!</a></li>
+                                  <li><a href="#">I'm Cirilo!</a></li>
+                                  <li><a href="#">Happy holidays!</a></li>
+                                  <li><a href="#">And...</a></li>
+                                  <li><a href="#">Happy New year!</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Top Social Area -->
+                  <div class="col-12 col-sm-4">
+                      <div class="top-social-area">
+                          <a href="https://www.pinterest.com.mx/cirilo_112/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                          <a href="https://www.facebook.com/CiriloOchhoa" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          <a href="#" data-toggle="tooltip" data-placement="top" title="Whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                          <a href="https://twitter.com/CiiriiloB" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                          <a href="https://plus.google.com/u/0/112780588285421992317" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-g" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-      </header>
-    <div id="banner" align="center">
-        <h1 align="center"><b>Casa Cultural!</b></h1>
-        <h2 align="center"><b>Cuauhtémoc,col.</b></h2>
-        <nav id="navul" class="navbar navbar-default">
-            <ul class="nav nav-pills nav-justified">
-              <li id="inicio" role="presentation" class="active"><a href="./centrocultural.html">Go to back</a></li>
-              <li id="mas" role="presentation"><a href="">Más...</a>
-                <ul class="navbar navbar-default">
-                  <li role="presentation"><a href="https://www.google.com/maps/place/Libertad+9,+Centro,+28500+Cuauht%C3%A9moc,+Col.,+M%C3%A9xico/@19.329038,-103.601262,17z/data=!4m5!3m4!1s0x8425592fe13e841d:0x21e437c6ce804e28!8m2!3d19.3290383!4d-103.6012623?hl=es-ES" target="_blank">
-                    Ubicación</a></li>
-                  <li role="presentation"><a href="">Vínculos</a></li>
-                </ul>
-              </li>
-              <li id="contact" role="presentation"><a href="#">Contacto</a></li>
-            </ul>
-          </nav><br>
-        <div id="introduccion" class="font-effect-emboss">
-          <h3 id="intro"><img src="https://mbtskoudsalg.com/images/success-png-icon-7.png" id="imglike"><b>Biblioteca</b></h3>
-        </div>
-        <div id="pcontent">
-            <p><b>En este espacio puedes navegar en internet,<br> buscar información en libros y hacer tus tareas!.</b></p><br>
-        </div>
-    </div>
-  </div>
-  <div id="content">
-      <div id="introduccion" class="font-effect-emboss">
-          <h3 id="intro"><img src="https://mbtskoudsalg.com/images/success-png-icon-7.png" id="imglike"><b> Espacios</b></h3>
       </div>
-      <div id="pcontent">
-        <table align="center" id="table" border="2">
-          <tr>
-            <th width="5px" height="5px">No.</th>
-            <th width="20px" height="5px">Espacio</th>
-            <th width="20px" height="5px">Beneficio</th>
-          </tr>
-          <tr>
-            <td align="center">1</td>
-            <td align="center">Computadoras</td>
-            <td align="center">Investigar en internet</td>
-          </tr>
-          <tr>
-            <td align="center">2</td>
-            <td align="center">Libros</td>
-            <td align="center">Investigar por textos</td>
-          </tr>
-          <tr>
-            <td align="center">3</td>
-            <td align="center">Educación para niños</td>
-            <td align="center">Dan clases de inglés para niños</td>
-          </tr>
-        </table>
+
+      <!-- Logo Area -->
+      <div class="logo-area text-center">
+          <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                  <div class="col-12 img-content">
+                      <a href="MyPage.html" class="original-logo"><div class="example exE02"></div></a>
+                  </div>
+              </div>
+          </div>
       </div>
+
+      <!-- Nav Area -->
+      <div class="original-nav-area" id="stickyNav">
+          <div class="classy-nav-container breakpoint-off">
+              <div class="container">
+                  <!-- Classy Menu -->
+                  <nav class="classy-navbar justify-content-between">
+
+                      <!-- Subscribe btn -->
+                      <div class="subscribe-btn">
+                          <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Subscribe</a>
+                      </div>
+
+                      <!-- Navbar Toggler -->
+                      <div class="classy-navbar-toggler">
+                          <span class="navbarToggler"><span></span><span></span><span></span></span>
+                      </div>
+
+                      <!-- Menu -->
+                      <div class="classy-menu" id="originalNav">
+                          <!-- close btn -->
+                          <div class="classycloseIcon">
+                              <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                          </div>
+
+                          <!-- Nav Start -->
+                          <div class="classynav">
+                              <ul>
+                                  <li><a href="MyPage.html">Home</a></li>
+                                  <li><a href="#">Pages</a>
+                                      <ul class="dropdown">
+                                          <li><a href="MyPage.html">Home</a></li>
+                                          <li><a href="./centrocultural.html">Centro Cultural</a></li>
+                                          <li><a href="single-post.html">Single Post</a></li>
+                                          <li><a href="contact.html">Contact</a></li>
+                                          <li><a href="coming-soon.html">Coming Soon</a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a href="about-us.html">About Me</a>
+                                      <ul class="dropdown">
+                                          <li><a href="#">Hobbies</a></li>
+                                          <li><a href="music.html">Music</a></li>
+                                          <li><a href="#">School</a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a href="contact.html">Contact</a></li>
+                              </ul>
+
+                              <!-- Search Form  -->
+                              <div id="search-wrapper">
+                                  <form action="#">
+                                      <input type="text" id="search" placeholder="Quieres buscar algo...">
+                                      <div id="close-icon"></div>
+                                      <input class="d-none" type="submit" value="">
+                                  </form>
+                              </div>
+                          </div>
+                          <!-- Nav End -->
+                      </div>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ##### Header Area End ##### -->
+
+  <!--CONTENT-->
+  <div class="container">
+    <div class="row">
+        <div id="content" class="col-12 col-md-8 col-lg-9">
+            <div class="font-effect-emboss title-introduction">
+                <h3 id="intro"><img src="https://mbtskoudsalg.com/images/success-png-icon-7.png" class="icon-title"><b> Espacios</b></h3>
+            </div>
+            <div id="pcontent">
+                <table align="center" id="table" border="2">
+                <tr>
+                    <th width="5px" height="5px">No.</th>
+                    <th width="20px" height="5px">Espacio</th>
+                    <th width="20px" height="5px">Beneficio</th>
+                </tr>
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">Computadoras</td>
+                    <td align="center">Investigar en internet</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">Libros</td>
+                    <td align="center">Investigar por textos</td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td align="center">Educación para niños</td>
+                    <td align="center">Dan clases de inglés para niños</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        <!-- ##### Sidebar Area ##### -->
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="post-sidebar-area">
+
+                    <!-- Widget Area -->
+                    <div class="sidebar-widget-area">
+                        <form action="#" class="search-form">
+                            <input type="search" name="search" id="searchForm" placeholder="Buscar...">
+                            <input type="submit" value="submit">
+                        </form>
+                    </div>
+
+                    <!-- Widget Area -->
+                    <div class="sidebar-widget-area">
+                        <h5 class="title subscribe-title">Subscribe to my Page</h5>
+                        <div class="widget-content">
+                            <form action="#" class="newsletterForm">
+                                <input type="email" name="email" id="subscribesForm" placeholder="Escribe tu e-mail aquí...">
+                                <button type="submit" class="btn original-btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Widget Area -->
+                    <div class="sidebar-widget-area">
+                        <h5 class="title">Anuncios</h5>
+                        <a href="#"><img src="img/bg-img/add2.gif" alt=""></a>
+                    </div>
+
+                    <!-- Widget Area -->
+                    <div class="sidebar-widget-area">
+                        <h5 class="title">Lo más reciente</h5>
+
+                        <div class="widget-content">
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex align-items-center widget-post">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="img/blog-img/lp1.jpg" alt="">
+                                </div>
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-tag">Introduction</a>
+                                    <h4><a href="#" class="post-headline">Casa Cultural</a></h4>
+                                    <div class="post-meta">
+                                        <p><a href="#">24 Diciembre</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex align-items-center widget-post">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="img/blog-img/lp2.jpg" alt="">
+                                </div>
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-tag">Ubicación</a>
+                                    <h4><a href="#" class="post-headline">Ubicación de la Casa Cultural</a></h4>
+                                    <div class="post-meta">
+                                        <p><a href="#">24 Diciembre</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex align-items-center widget-post">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="img/blog-img/lp3.jpg" alt="">
+                                </div>
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-tag">Subtemas</a>
+                                    <h4><a href="#" class="post-headline">Espacios de la Casa Cultural</a></h4>
+                                    <div class="post-meta">
+                                        <p><a href="#">12 March</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex align-items-center widget-post">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="img/blog-img/lp4.jpg" alt="">
+                                </div>
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-tag">Music</a>
+                                    <h4><a href="#" class="post-headline">Lista de mi música favorita</a></h4>
+                                    <div class="post-meta">
+                                        <p><a href="#">12 March</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Widget Area -->
+                    <div class="sidebar-widget-area">
+                        <h5 class="title">Tags</h5>
+                        <div class="widget-content">
+                            <ul class="tags">
+                                <li><a href="#">design</a></li>
+                                <li><a href="#">fashion</a></li>
+                                <li><a href="#">travel</a></li>
+                                <li><a href="#">music</a></li>
+                                <li><a href="#">party</a></li>
+                                <li><a href="#">video</a></li>
+                                <li><a href="#">photography</a></li>
+                                <li><a href="#">adventure</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="marquee" align="center">
       <marquee><h2>Gracias por tu visita</h2></marquee>
     </div>
   </body>
-  <footer>
-    <div id="footer">
-      <div id="copy">Para más Información visita <a href="http://cuauhtemoc-col.gob.mx/sitio/atractivos-culturales-y-turisticos/" target="_blank">
-        Cuauhtémoc.Colima</a><br> Contacto: <u>cirilo_112@hotmail.es</u> Num.Telefónico: <tt>(312)*******</tt><br>
-        Zaragoza #78 Colonia La Presa, Cuauhtémoc, Colima.<br><br>&copy;2019 Cirilo Batista Personal Blog. All rights reserved.
-      </div>
+
+  <!-- ##### Footer Area Start ##### -->
+  <footer class="footer-area text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Rate me</h3>
+                <div class="rating">
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                </div>
+                <!-- Footer Nav Area -->
+                <div class="classy-nav-container breakpoint-off">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-center">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Me</a></li>
+                                    <li><a href="#">Hobbies</a></li>
+                                    <li><a href="#">My Music</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+                
+                <!-- Footer Social Area -->
+                <div class="footer-social-area mt-30">
+                        <a href="https://www.pinterest.com.mx/cirilo_112/" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/CiriloOchhoa" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/CiiriiloB" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/u/0/112780588285421992317" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-g" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
+    Para más Información visita <a href="http://cuauhtemoc-col.gob.mx/sitio/atractivos-culturales-y-turisticos/" target="_blank">
+        Cuauhtémoc.Colima</a><br> Contacto: cirilo_112@hotmail.es Num.Telefónico: <tt>(312)*******</tt><br>
+        Zaragoza #78 Colonia La Presa, Cuauhtémoc, Colima.<br>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<br> <i class="fa fa-heart-o" aria-hidden="true"></i> by CiriloBatista
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 <html>

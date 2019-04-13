@@ -1,5 +1,12 @@
 body{
   background: #2796DE;
+}body::-webkit-scrollbar{	/* Scrollbar */
+	width: 10px;
+	background-color: transparent;
+}body::-webkit-scrollbar-thumb{
+	background-color: black;
+	border-radius: 4px;
+	border-right: 2px solid white;;
 }
 input, button:focus{
     outline-offset: 0px;
@@ -220,15 +227,6 @@ div#banner h2{
 div#content{
 	margin: 0 0 3% 0;
 }
-#titulo{
-    position: relative;
-    width:max-content;
-    height:60px;
-    margin: 1% auto 0 auto;
-    background-color: #337ab7;
-    border: 2px dashed black;
-    border-radius: 100px;
-}
 #textitulo{
     display:inline-block;
     padding: 0px 15px;
@@ -241,14 +239,6 @@ div#content{
     background-color: white;
     border: 2px dashed black;
     border-radius: 15px;
-}
-#pcontentp{
-	padding: 6% 0 2% 0;
-    font-family: 'Ubuntu', sans-serif;
-    width:600px;
-}
-a#JD{
-    color: black;
 }
 #imglike{
     vertical-align: middle;
